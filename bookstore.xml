@@ -1,0 +1,51 @@
+<?xml version="1.0"?> 
+<!DOCTYPE bookstore [ 
+<!ELEMENT bookstore (book)> 
+<!ELEMENT book (bookname,bookprice,bookauthor,booknumber,pages)> 
+<!ELEMENT bookname (#PCDATA)> 
+<!ELEMENT bookprice (#PCDATA)> 
+<!ELEMENT bookauthor (#PCDATA)> 
+<!ELEMENT booknumber (#PCDATA)> 
+ 
+<!ELEMENT pages (#PCDATA)> 
+
+]> 
+
+
+<bookstore>
+<book>
+<bookname>come!let's Run</bookname>
+<bookauthor>Ma.Subramanian</bookauthor>
+<bookprice>$250</bookprice>
+<ISBN>569278</ISBN>
+<pages>345</pages>
+</book>
+<book>
+<bookname>the last Heroes</bookname>
+<bookauthor>p sainath</bookauthor>
+<bookprice>$299</bookprice>
+<ISBN>569238</ISBN>
+<pages>456</pages>
+</book>
+<book>
+<bookname> victory city</bookname>
+<bookauthor>Salman Rushdie</bookauthor>
+<bookprice>$500</bookprice>
+<ISBN>289463</ISBN>
+<pages>236</pages>
+</book>
+<book>
+<bookname>The Golden Years</bookname>
+<bookauthor>Ruskin Bond</bookauthor>
+<bookprice>$459</bookprice>
+<ISBN>823247</ISBN>
+<pages>186</pages>
+</book>
+<book>
+<bookname>The India Story</bookname>
+<bookauthor>Bimal Jalal</bookauthor>
+<bookprice>$600</bookprice>
+<ISBN>379467</ISBN>
+<pages>467</pages>
+</book>
+</bookstore>
